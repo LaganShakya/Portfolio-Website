@@ -1,4 +1,3 @@
-import React from 'react'
 import HeroImg from './HeroImg'
 import { motion } from 'framer-motion'
 import Exp from './exp'

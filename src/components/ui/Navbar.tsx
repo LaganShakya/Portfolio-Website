@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom"
 import BgAudio from "./bgaudio"
 const Navbar = () => {
     return (
