@@ -23,7 +23,7 @@ const About = () => {
                                 viewport={{ once: true, amount: 0.5 }}
                                 transition={{ duration: 0.6 }}
                             >
-                                <img src="src/assets/images/Godlike_Jonathan_2024.jpeg" alt="Godlike Jonathan" className='w-70 h-80 rounded-xl object-cover' />
+                                <img src="/assets/images/Godlike_Jonathan_2024.jpeg" alt="Godlike Jonathan" className='w-70 h-80 rounded-xl object-cover' />
                                 <h1 className='text-white text-2xl font-bold mt-0.5'>Godlike Jonathan</h1>
                             </motion.div>
                             <motion.div
@@ -33,7 +33,7 @@ const About = () => {
                                 viewport={{ once: true, amount: 0.5 }}
                                 transition={{ duration: 0.6 }}
                             >
-                                <img src="src/assets/images/msd.jpg" alt="MS Dhoni" className='w-70 h-80 rounded-xl object-cover' />
+                                <img src="/assets/images/msd.jpg" alt="MS Dhoni" className='w-70 h-80 rounded-xl object-cover' />
                                 <h1 className='text-white text-2xl font-bold mt-0.5'>MS Dhoni</h1>
                             </motion.div>
                             <motion.div
@@ -43,7 +43,7 @@ const About = () => {
                                 viewport={{ once: true, amount: 0.5 }}
                                 transition={{ duration: 0.6 }}
                             >
-                                <img src="src/assets/images/Admino.jpg" alt="Godlike Admino" className='w-70 h-80 rounded-xl object-cover' />
+                                <img src="/assets/images/Admino.jpg" alt="Godlike Admino" className='w-70 h-80 rounded-xl object-cover' />
                                 <h1 className='text-white text-2xl font-bold mt-0.5'>Godlike Admino</h1>
                             </motion.div>
                         </div>
@@ -58,7 +58,7 @@ const About = () => {
                                 viewport={{ once: true, amount: 0.5 }}
                                 transition={{ duration: 0.6 }}
                             >
-                                <img src="src/assets/images/sheriyans.jpg" alt="Sheriyans Coding School" className='w-70 h-80 rounded-xl object-cover' />
+                                <img src="/assets/images/Sheriyans.jpg" alt="Sheriyans Coding School" className='w-70 h-80 rounded-xl object-cover' />
                                 <h1 className='text-white text-2xl font-bold mt-0.5'>Sheriyans Coding School</h1>
                             </motion.div>
                             <motion.div
@@ -68,7 +68,7 @@ const About = () => {
                                 viewport={{ once: true, amount: 0.5 }}
                                 transition={{ duration: 0.6 }}
                             >
-                                <img src="src/assets/images/codewithharry.jpg" alt="CodeWithHarry" className='w-70 h-80 rounded-xl object-cover' />
+                                <img src="/assets/images/codewithharry.jpg" alt="CodeWithHarry" className='w-70 h-80 rounded-xl object-cover' />
                                 <h1 className='text-white text-2xl font-bold mt-0.5'>CodeWithHarry</h1>
                             </motion.div>
                             <motion.div
@@ -78,7 +78,7 @@ const About = () => {
                                 viewport={{ once: true, amount: 0.5 }}
                                 transition={{ duration: 0.6 }}
                             >
-                                <img src="src/assets/images/apnacollage.jpeg" alt="Apna Collage" className='w-70 h-80 rounded-xl object-cover' />
+                                <img src="/assets/images/apnacollage.jpeg" alt="Apna Collage" className='w-70 h-80 rounded-xl object-cover' />
                                 <h1 className='text-white text-2xl font-bold mt-0.5'>Apna Collage</h1>
                             </motion.div>
                         </div>

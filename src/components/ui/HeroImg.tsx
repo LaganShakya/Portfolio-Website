@@ -24,7 +24,7 @@ const HeroImg = () => {
 
             {/* Image */}
             <img
-                src="src/assets/images/Hero.jpg"
+                src="/assets/images/Hero.jpg"
                 alt=""
                 className="w-88 h-88 object-cover rounded-full relative z-10"
             />

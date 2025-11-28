@@ -1,4 +1,4 @@
-import ambientAudio from "../../assets/audio/autumn-ambient-420193.mp3"
+import ambientAudio from "/assets/audio/autumn-ambient-420193.mp3"
 const bgaudio = () => {
     return (
         <div className="flex items-center">
