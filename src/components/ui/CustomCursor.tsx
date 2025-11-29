@@ -89,7 +89,7 @@ const CustomCursor = () => {
             {/* The trailing ring */}
             <div
                 ref={cursorRef}
-                className={`fixed top-0 left-0 pointer-events-none z-9999 rounded-full flex items-center justify-center transition-[width,height,background-color,opacity] duration-300 ease-out will-change-transform -translate-x-1/2 -translate-y-1/2
+                className={`lg:fixed lg:top-0 lg:left-0 hidden pointer-events-none z-9999 rounded-full lg:flex items-center justify-center transition-[width,height,background-color,opacity] duration-300 ease-out will-change-transform -translate-x-1/2 -translate-y-1/2
           ${hoverType === 'image' ? 'bg-white' : 'border border-cyan-500/50 shadow-[0_0_15px_rgba(6,182,212,0.5)] mix-blend-screen'}
           ${getCursorSize()}
         `}
@@ -102,7 +102,7 @@ const CustomCursor = () => {
             {/* The center dot (Increased size, disappears on 'image' hover for cleaner look) */}
             <div
                 ref={dotRef}
-                className={`fixed top-0 left-0 h-2 w-2 bg-cyan-400 rounded-full pointer-events-none z-9999 mix-blend-screen -translate-x-1/2 -translate-y-1/2 will-change-transform transition-opacity duration-300 shadow-[0_0_10px_rgba(34,211,238,0.8)]
+                className={`lg:fixed lg:top-0 lg:left-0 hidden lg:block h-2 w-2 bg-cyan-400 rounded-full pointer-events-none z-9999 mix-blend-screen -translate-x-1/2 -translate-y-1/2 will-change-transform transition-opacity duration-300 shadow-[0_0_10px_rgba(34,211,238,0.8)]
           ${hoverType === 'image' ? 'opacity-0' : 'opacity-100'}
         `}
             />

@@ -6,8 +6,8 @@ const HeroSection = () => {
     return (
         <div id="herosection" className="text-white h-screen w-full flex flex-col items-center justify-around">
             <div id="herosection" className="text-white h-screen w-full flex items-center justify-around">
-                <div className='flex flex-col gap-0.5'>
-                    <div className='flex items-baseline gap-1.5'><h1 className="text-5xl font-bold">Hi,</h1><h1 className="text-4xl font-bold">I'm</h1></div>
+                <div className='flex flex-col lg:gap-0.5'>
+                    <div className='flex items-baseline gap-1.5'><h1 className="lg:text-5xl text-4xl font-bold">Hi,</h1><h1 className="lg:text-4xl text-3xl font-bold">I'm</h1></div>
                     <div className='flex flex-col gap-4'>
                         <h1 className="text-5xl font-bold hover:drop-shadow-lg hover:drop-shadow-amber-500/40 hover:text-amber-300 hover:text-6xl cursor-pointer duration-200 transition-duration-400">Lagan Shakya</h1>
                         <Exp />
