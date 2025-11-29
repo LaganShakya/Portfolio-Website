@@ -3,7 +3,7 @@ import { AnimatePresence, motion } from 'framer-motion'
 import Home from './components/sections/Home'
 import About from './components/sections/About'
 import Projects from './components/sections/Projects'
-import LoadingScreen from './components/ui/LoadingScreen'
+import LoadingScreen from './components/ui/TerminalLoader'
 import CustomCursor from './components/ui/CustomCursor'
 
 const App = () => {
@@ -18,7 +18,7 @@ const App = () => {
     // Simulate loading time or wait for resources
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 6000); // 6 seconds loading time
+    }, 6500); // 6.5 seconds loading time
 
     return () => clearTimeout(timer);
   }, []);

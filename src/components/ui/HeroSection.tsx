@@ -6,17 +6,19 @@ const HeroSection = () => {
     return (
         <div id="herosection" className="text-white h-screen w-full flex flex-col items-center justify-around">
             <div id="herosection" className="text-white h-screen w-full flex items-center justify-around">
-                <div className='flex flex-col gap-2'>
+                <div className='flex flex-col gap-0.5'>
                     <div className='flex items-baseline gap-1.5'><h1 className="text-5xl font-bold">Hi,</h1><h1 className="text-4xl font-bold">I'm</h1></div>
-                    <h1 className="text-5xl font-bold hover:drop-shadow-lg hover:drop-shadow-amber-500/40 hover:text-amber-300 hover:text-6xl cursor-pointer duration-200 transition-duration-400">Lagan Shakya</h1>
-                    <Exp />
+                    <div className='flex flex-col gap-4'>
+                        <h1 className="text-5xl font-bold hover:drop-shadow-lg hover:drop-shadow-amber-500/40 hover:text-amber-300 hover:text-6xl cursor-pointer duration-200 transition-duration-400">Lagan Shakya</h1>
+                        <Exp />
+                    </div>
                 </div>
                 <HeroImg />
             </div>
             <div className="flex flex-col items-center justify-center">
                 <div className="flex items-baseline justify-center gap-0.5">
                     <p className="text-2xl font-semibold mb-2">Kya Bolu Mai</p>
-                    <motion.p className="text-4xl font-semibold mb-2 text-yellow-400" initial={{ scale: 1 }} animate={{ scale: 1.4 }} transition={{ duration: 0.2, delay: 2, repeat: Infinity, repeatType: 'mirror' }}>?</motion.p>
+                    <motion.p className="text-4xl font-semibold mb-2 text-yellow-400" initial={{ scale: 1 }} animate={{ scale: 1.1 }} transition={{ duration: 0.4, delay: 2, repeat: Infinity, repeatType: 'mirror' }}>?</motion.p>
                 </div>
                 <motion.button
                     onClick={() => window.scrollTo({ top: document.getElementById('about')?.offsetTop || 0, behavior: 'smooth' })}
