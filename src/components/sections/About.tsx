@@ -7,10 +7,8 @@ const About = () => {
                 <h1 className='text-6xl font-bold text-white mt-24'>About</h1>
                 <div className='flex flex-col items-center justify-center h-full'>
                     <div>
-                        <h1 className='text-4xl font-bold text-white mt-8'>Hello, I'm</h1>
-                        <p className='text-white mt-2'>One of the founding members of the <span className='text-cyan-400'><a href="https://weeklytechx.blogspot.com/" target='_blank'>Weekly TechX</a></span> Blogs.</p>
-                        <p className='text-white'>I'm a passionate developer and designer, always eager to learn and share knowledge.</p>
-                        <p className='text-white'>I proudly able to say that I used A.I in many of my projects in building them.</p>
+                        <h1 className='pl-6 text-4xl font-bold text-white mt-6'>Hello, <span className='text-gray-300 text-3xl'>I'm</span></h1>
+                        <p className='text-white max-w-3xl px-4 mt-1.5 text-clip'>Lagan, a developer and creator who likes building things that feel useful, fast, and smooth. I work across full-stack development, with a growing focus on backend architecture and small, practical products that a single person can run. I enjoy experimenting with ideas, especially ones that can turn into micro-SaaS tools or personal websites with real value. Outside of code, I spend a lot of time editing videos and photos, which keeps me connected to design, pacing, and storytelling. That mix of technical and creative thinking shapes how I approach projects. I care about clean interfaces, solid performance, and making products that feel pleasant to use. Right now I’m focused on improving my skills, building things that solve everyday problems, and preparing myself for the long-term goal of starting my own product studio. I like keeping things simple, friendly, and approachable, both in my work and how I collaborate.</p>
                     </div>
                     <div className='mt-2 flex flex-col items-center justify-center'>
                         <h1 className='text-white text-4xl font-bold mt-12'>My Favorite Persons</h1>

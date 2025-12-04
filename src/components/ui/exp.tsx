@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 
 const exp = () => {
     return (
-        <div className='flex flex-col items-center gap-1.5'>
+        <div className='flex flex-col items-center gap-1.5 lg:scale-100 scale-85'>
             <div className='flex items-center gap-1.5'>
                 <div className='flex items-center'>
                     <motion.p className="text-2xl font-semibold bg-orange-500 mr-[-0.5px] p-0.5" initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 1, delay: 0.6, repeat: Infinity, repeatType: 'mirror' }}>F</motion.p>

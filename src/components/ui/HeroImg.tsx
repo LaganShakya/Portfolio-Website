@@ -3,7 +3,7 @@
 const HeroImg = () => {
     return (
         <div
-            className="relative flex items-center justify-center w-90 h-90 rounded-full p-[5px] hover:scale-110 duration-200 transition-duration-800"
+            className="relative flex items-center justify-center w-64 h-64 sm:w-80 sm:h-80 md:w-90 md:h-90 rounded-full p-[5px] hover:scale-110 duration-200 transition-duration-800"
             style={{
                 background:
                     "linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #8f00ff)",
@@ -22,11 +22,18 @@ const HeroImg = () => {
                 }}
             ></div>
 
-            {/* Image */}
-            <img
-                src="/assets/images/Hero.jpg"
+            {/* Image/Video */}
+            {/* <img
+                src="/assets/images/hero2.png"
                 alt=""
-                className="w-88 h-88 object-cover rounded-full relative z-10"
+                className="w-[calc(100%-4px)] h-[calc(100%-4px)] object-cover rounded-full relative z-10"
+            /> */}
+            <video
+                src="/assets/videos/herovideo.mp4"
+                autoPlay
+                playsInline
+                muted
+                className="w-full h-full object-cover rounded-full relative z-10 bg-black"
             />
 
             <style>
